@@ -1,5 +1,7 @@
 #!/bin/bash
+# NAME: Fn as Hotkey
 # Fn as RetroArch hotkey enable (GO-Super / Y3506, scheme "default").
+# Options > Tools reads this label. On an installed card, copy this file to /roms/tools/.
 #
 # Select (button 12) stays input_player1_select_btn, so games receive it.
 # Function (button 16, GPIO F5) becomes the hotkey modifier.
@@ -158,3 +160,4 @@ echo "Select (botão 12) volta a ser só o botão do jogo."
 echo "Fn sozinho abre o menu. Fn + L1 pausa."
 echo "Os demais atalhos continuam os mesmos, agora com Fn no lugar de Select."
 echo "Feche o jogo atual antes de testar. Arquivos ausentes: ${missing}."
+sleep 8
